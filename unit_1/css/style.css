@@ -10,4 +10,7 @@ h1 {
 p {
 	color: #ffffff;
 	text-align: center;
+	font-family: 'CustomFont', Avenir, sans-serif;
+	font-weight:normal;
+	font-style:normal;
 }
