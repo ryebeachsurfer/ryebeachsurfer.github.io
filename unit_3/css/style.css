@@ -1,0 +1,67 @@
+body {
+	background: #2F4550;
+}
+
+h1 {
+	color: #79C4A7;
+	text-align: center;
+	font-family: 'CustomFont', Avenir, sans-serif;
+
+}
+
+h3 {
+	color: #C78283;
+	text-align: center;
+	font-family: 'CustomFont', Avenir, sans-serif;
+
+}
+
+p {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'CustomFont', Avenir, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+h2 {
+	color: #79C4A7;
+	text-align: center;
+	font-family: 'CustomFont', Avenir, sans-serif;
+	font-weight:bold;
+	font-style:normal;
+}
+
+address {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'CustomFont', Avenir, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+a:link {
+  color: #79C4A7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #C78283;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #754043;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style> 
