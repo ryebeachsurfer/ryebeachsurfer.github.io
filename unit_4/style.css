@@ -1,3 +1,5 @@
+
+
 body {
 	background: #2F4550;
 }
@@ -5,37 +7,38 @@ body {
 h1 {
 	color: #79C4A7;
 	text-align: center;
-	font-family: 'CustomFont', Avenir, sans-serif;
+	font-family: Sue Ellen Francisco, hand;
 
 }
 
 h3 {
 	color: #C78283;
 	text-align: center;
-	font-family: 'CustomFont', Avenir, sans-serif;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
 
 }
 
 p {
 	color: #ffffff;
 	text-align: center;
-	font-family: 'CustomFont', Avenir, sans-serif;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
 	font-weight:normal;
 	font-style:normal;
 }
 
+
 h2 {
 	color: #79C4A7;
 	text-align: center;
-	font-family: 'CustomFont', Avenir, sans-serif;
-	font-weight:normal;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
+	font-weight:bold;
 	font-style:normal;
 }
 
 address {
 	color: #ffffff;
 	text-align: center;
-	font-family: 'CustomFont', Avenir, sans-serif;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
 	font-weight:normal;
 	font-style:normal;
 }
@@ -64,4 +67,3 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-</style> 
