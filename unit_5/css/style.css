@@ -1,0 +1,134 @@
+html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            margin: 0;
+            padding: 0;
+            background-image: url('geoport.jpg');
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+        }
+img {
+  opacity: 0.5;
+}
+
+body {
+	background: #95a19e;
+}
+.color {
+	background: #ffffff;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-family: 'CustomFont', Brandon Grotesque, sans-serif;
+
+}
+
+.navbar {
+  width: 100%;
+  background-color: #ffffff;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  font-size: 17px;
+  width: 14.66%;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+}
+
+.navbar a.active {
+  background-color: #ebc6c5;
+}
+
+h1 {
+	color: #79C4A7;
+	text-align: center;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
+
+}
+
+h3 {
+	color: #C78283;
+	text-align: center;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
+
+}
+
+p {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+.about {
+	text-align: left;
+	color: black;
+}
+.home {
+	color: black;
+}
+h2 {
+	color: #79C4A7;
+	text-align: center;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+.core {
+	color: #2F4550;
+}
+
+address {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'CustomFont', Brandon Grotesque, sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+a:link {
+  color: #79C4A7;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #C78283;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #754043;
+  background-color: transparent;
+  text-decoration: underline;
+}
