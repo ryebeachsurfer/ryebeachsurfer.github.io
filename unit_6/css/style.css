@@ -20,14 +20,12 @@ img {
   opacity: 1;
   padding: 0;
 }
-
 #geoport {
   opacity: .5;
   padding: 0;
 }
-
 body {
-	background: #95a19e;
+	background: #ebc6c5;
 }
 .color {
 	background: #ffffff;
@@ -80,6 +78,14 @@ h1 {
 
 }
 
+h2 {
+  color: #000000;
+  text-align: center;
+  font-family: 'CustomFont', 'Jost', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
 h3 {
 	color: #C78283;
 	text-align: center;
@@ -102,18 +108,12 @@ p {
 
 .home {
 	color: black;
+  text-align:left;
+  font-size: 18.49px;
 }
 #about_me {
   padding: 0 20px;
   display: inline-block;
-}
-
-h2 {
-	color: #000000;
-	text-align: center;
-	font-family: 'CustomFont', 'Jost', sans-serif;
-	font-weight:normal;
-	font-style:normal;
 }
 
 .core {
@@ -161,6 +161,10 @@ h2 {
   padding: 10px;
   margin: 0;
   width: 100%;
+}
+
+.core_color3 {
+  background-color: #ffffff;
 }
 
 address {
