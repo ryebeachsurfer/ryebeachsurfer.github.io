@@ -1,0 +1,224 @@
+@import 
+url (https://fonts.googleapis.com/css2?family=Jost&display=swap);
+
+html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        div {
+            width: 100%;
+            height: 100%;
+            max-height: 100%;
+            margin: 0;
+            padding: 0;
+            background-image: url('geoport.jpg');
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+        }
+img {
+  opacity: 1;
+  padding: 0;
+}
+header img{
+  width: 100%;
+}
+#geoport {
+  opacity: .5;
+  padding: 0;
+}
+body {
+	background: #ebc6c5;
+}
+.color {
+	background: #ffffff;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  font-family: 'CustomFont', 'Jost', sans-serif;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #95a19e;
+  overflow: auto;
+  font-family: 'CustomFont', 'Jost', sans-serif;;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px 0;
+  color: white;
+  font-size: 17px;
+  width: 16.66%;
+  text-align: center;
+
+}
+
+.navbar a:hover {
+  background-color: #ebc6c5;
+  text-decoration: none;
+}
+
+.navbar a.active {
+  background-color: #95a19e;
+}
+
+h1 {
+	color: #79C4A7;
+	text-align: center;
+	font-family: 'CustomFont', 'Jost', sans-serif;
+
+}
+
+h2 {
+  color: #000000;
+  text-align: center;
+  font-family: 'CustomFont', 'Jost', sans-serif;
+  font-weight:normal;
+  font-style:normal;
+}
+
+h3 {
+	color: #000000;
+	text-align: center;
+	font-family: 'CustomFont', 'Jost', sans-serif;
+
+}
+
+p {
+	color: #ffffff;
+	text-align: center;
+	font-family: 'CustomFont', 'Jost', sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+.about {
+	text-align: left;
+	color: black;
+}
+
+.home {
+	color: black;
+  text-align:left;
+  font-size: 18.49px;
+}
+#about_me {
+  display: inline-block;
+}
+
+.core {
+	color: #ffffff;
+}
+
+#two_column {
+  background-color: white;
+  float: center;
+  margin: auto;
+  padding: 20px;
+  width:40em;
+}
+
+#left {
+  background-color: white;
+  float: left;
+  width: 50%;
+}
+
+#right {
+  background-color: white;
+  text-align: left;
+  float: left;   
+  width: 50%;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#me {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+
+#corevalues {
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+}
+.core_color {
+  background-color: #ffffff;
+  padding: 10px;
+  margin: 0;
+  width: 100%;
+}
+
+.core_color2 {
+  background-color: #ebc6c5;
+  padding:10px;
+  width: 100%;
+}
+
+.core_color3 {
+  background-color: #ffffff;
+}
+.port {
+  text-align: justify;
+  color: black;
+  width: 40%;
+  margin: auto;
+}
+
+.folio {
+  width:30%;
+  display: block;
+  margin: auto;
+
+}
+
+address {
+  background-color: grey;
+  padding: 20px;
+	color: #ffffff;
+	text-align: center;
+	font-family: 'CustomFont', 'Jost', sans-serif;
+	font-weight:normal;
+	font-style:normal;
+}
+
+a:link {
+  background-color: white;
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #ffffff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: white;
+  color: #754043;
+  background-color: transparent;
+  text-decoration: none;
+}

@@ -5,19 +5,20 @@
 	<title>Addie Sargent Design</title>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 <header>
 	<body class="core_color3">
-		<section class="navbar">
-			<a class="active" href="index.html"><img src="images/addiesargentlogo@1x.png" alt="addiesargent.com" style="width:50%"></a>
+		<nav class="navbar">
+			<a class="active" href="index.html"><img src="images/addiesargentlogo@1x.png" alt="addiesargent.com"></a>
 			<a href="values.html">Values</a>
 			<a href="portfolio.html">Portfolio</a>
 			<a href="resume.html">Resume</a>
 			<a href="services.html">Services</a>
 			<a href="contact.html">Contact</a>
-		</section>
+		</nav>
 	</body>     
 
 
@@ -28,12 +29,12 @@
 </header>
 <main>	
 	<h2>A little bit about me</h2>
-	
+	<section id="me">
 		<section id="two_column" class="clearfix">
-			<aside id="left">
+			<section id="left">
 				<img src="images/me@1x.jpg" alt="me">
-			</aside>
-			<article id="right">	
+			</section>
+			<section id="right">	
 				<p class=about>Name: Addie Sargent</p>
 				<p class=about>Age: 20</p>
 				<p class=about>Address: Somewhere in New England</p>
@@ -41,17 +42,17 @@
 				<p class=about>Email: addiesargent219@gmail.com</p>
 				<p class=about>Bēhance: addiesargent219</p>
 				<p class=about>Freelance: Available</p>
-			</article>
+			</section>
 		</section>
 		<section id="about_me">
 				<p class="home"> Hey! My name is Addie.  I am a junior at Simmons University in Boston, MA.  I have lived in New England for most of my life, other than the brief time when I went to Flagler College in St. Augustine, FL.  I love minimalistic art, rock music, and I was raised by two hippie parents.  I am a go-with-the-flow kind of girl and I always follow my heart over my head.  As long as I can remember I have loved art – whether it was finger painting, drawing or some sort of mixed media, my life has been surrounded by art.</p>  
-			</article>
+		</section>
+	</section>
 <br>
 
 	<section class="core_color2">
-		<h2>---------------------- My Core Values ----------------------</h2>
-	</section>
-	<section class="core_color">
+		<h2 id="corevalues"> ---------------------- My Core Values ---------------------- </h2>
+	
 		<div>
 			<h2 class=core>Simplicity.</h2>
 			<p>the state, quality, or an instance of being simple</p>
@@ -66,39 +67,86 @@
 
 	<section class="core_color">
 	<h2> ---------------------- My Portfolio ----------------------</h2>	
-		<section id="three_column" class="clearfix">
-		    <article id="1a">  
-		      <img src="images/laswave.png" alt="Las Block Print" style="width:30%">
+
+		      <img class="folio" src="images/laswave.png" alt="Las Block Print">
 		      <h3>Las Olas Taqueria Block Print Wave Logo</h3>
+		       <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		    
-		      <img src="images/clinomania.png" alt="Clinomania Book" style="width:30%">
+		      <img class="folio" src="images/clinomania.png" alt="Clinomania Book">
 		      <h3>Avenir Next Type Study</h3>
+		      <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		    
-		      <img src="images/geoport.jpg" alt="Geometric Portrait" style="width:30%">
+		      <img class="folio" src="images/geoport.jpg" alt="Geometric Portrait">
 		      <h3>Geometric Portrait</h3>
-		    </article>
-		    <article id="1b">
-		      <img src="images/antigua.png" alt="Antigua" style="width:30%">
+		      <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		      
+		      <img class="folio" src="images/antigua.png" alt="Antigua">
 		      <h3>Antigua, Guatemala Travel Poster</h3>
+		      <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		      <img src="images/layla.jpg" alt="Layla Motion Blur" style="width:30%">
+		      <img class="folio" src="images/layla.jpg" alt="Layla Motion Blur">
 		      <h3>Going Nowhere</h3>
+		      <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		    
-		      <img src="images/shutter.jpg" alt="Shutter Noon" style="width:30%">
+		      <img class="folio" src="images/shutter.jpg" alt="Shutter Noon">
 		      <h3>12 in St. Augustine</h3>
-		    </article>
-		    <article id="1c">
-		      <img src="images/reuse.jpg" alt="Reuse Streetwear Photography" style="width:30%">
+		      <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		      <img class="folio" src="images/reuse.jpg" alt="Reuse Streetwear Photography">
 		      <h3>REUSE</h3>
+		      <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 		    
-		      <img src="images/sunsetwindow.jpg" alt="Golden Hour Window" style="width:30%">
+		      <img class="folio" src="images/sunsetwindow.jpg" alt="Golden Hour Window">
 		      <h3>Golden</h3>
+		      <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-		      <img src="images/sunsetwindow.jpg" alt="Golden Hour Window" style="width:30%">
+		      <img class="folio" src="images/sunsetwindow.jpg" alt="Golden Hour Window">
 		      <h3>Golden</h3>
-		     </article>
-		    
-	</section>
+		      <p class="port">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 	<section>
 	<h2> ---------------------- My Resume ----------------------</h2>	

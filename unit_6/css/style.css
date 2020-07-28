@@ -20,6 +20,9 @@ img {
   opacity: 1;
   padding: 0;
 }
+header img{
+  width: 100%;
+}
 #geoport {
   opacity: .5;
   padding: 0;
@@ -87,7 +90,7 @@ h2 {
 }
 
 h3 {
-	color: #C78283;
+	color: #000000;
 	text-align: center;
 	font-family: 'CustomFont', 'Jost', sans-serif;
 
@@ -112,32 +115,32 @@ p {
   font-size: 18.49px;
 }
 #about_me {
-  padding: 0 20px;
   display: inline-block;
 }
 
 .core {
-	color: #ebc6c5;
+	color: #ffffff;
 }
 
 #two_column {
   background-color: white;
+  float: center;
+  margin: auto;
   padding: 20px;
+  width:40em;
 }
 
 #left {
   background-color: white;
-  padding: 20px;
   float: left;
-  width: 21%;
+  width: 50%;
 }
 
 #right {
   background-color: white;
   text-align: left;
-  padding: 20px;
-  float: right;   
-  width: 70%;
+  float: left;   
+  width: 50%;
 }
 
 .clearfix:after {
@@ -149,8 +152,19 @@ p {
     height: 0;
 }
 
+#me {
+  background-color: white;
+  width: 50%;
+  margin: auto;
+}
+
+#corevalues {
+  font-size: 35px;
+  font-weight: bolder;
+  color: white;
+}
 .core_color {
-  background-color: #95a19e;
+  background-color: #ffffff;
   padding: 10px;
   margin: 0;
   width: 100%;
@@ -158,13 +172,25 @@ p {
 
 .core_color2 {
   background-color: #ebc6c5;
-  padding: 10px;
-  margin: 0;
+  padding:10px;
   width: 100%;
 }
 
 .core_color3 {
   background-color: #ffffff;
+}
+.port {
+  text-align: justify;
+  color: black;
+  width: 40%;
+  margin: auto;
+}
+
+.folio {
+  width:30%;
+  display: block;
+  margin: auto;
+
 }
 
 address {
