@@ -167,7 +167,7 @@ p {
   font-weight: bolder;
   color: white;
 }
-.core_color {
+#core_color {
   background-color: #ffffff;
   padding: 10px;
   margin: auto;
